@@ -1,0 +1,1 @@
+python3 extract_vectors.py && python3 process.py & sh run_dev.sh
