@@ -1,3 +1,6 @@
 venv
+__pycache__
 *.bin
 *.csv
+*.npy
+*.log

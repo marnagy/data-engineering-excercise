@@ -1,0 +1,12 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dev
+    ports:
+      - 8000:8000
+    volumes:
+      - ./:/app
+    # "sleep" command - for developing inside the container
+    # command: /bin/sh -c "while sleep 1000; do:; done"
